@@ -1,0 +1,166 @@
+body {
+	background: url(Untitled.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Verdana;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.heading, .heading2 {
+	cursor: default;
+	margin-top: 50px;
+	color: #ffff66;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.heading2, .icon, .losticonimage, .woniconimage, .l, .w, .t, .timeout {
+	display: none;
+}
+
+.start {
+	cursor: pointer;
+	margin-top: 300px;
+	width: 130px;
+	margin: auto;
+	height: 200px;
+	text-align: center;
+	color: pink;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.icon {
+	width: 300px;
+	text-align: center;
+	color: red;
+	font-size: 30px;
+	margin: auto;
+}
+
+.beginicon {
+	background: url(images.jpg);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin: auto;
+	height: 100px;
+}
+
+
+.losticonimage {	
+	background: url(lost.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin: auto;
+	height: 150px;
+	width: 150;
+}
+
+.woniconimage {
+	background: url(won.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin: auto;
+	height: 150px;
+	width: 150;
+}
+
+.timeout {
+	background: url(time.jpg);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin: auto;
+	height: 150px;
+	width: 150;
+}
+
+.l, .w, .t {
+	margin-left: -23px;
+	margin-top: 150px;
+	width: 200px;
+	text-align: center;
+}
+
+div {
+	padding: 15px; 
+}
+
+.shift {
+	margin-top: 5px;
+	color: #ffff66;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.container {
+	display: inline-block;
+    position: fixed;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+	width: 100%;
+	height: 460px;
+	border-radius: 5px;
+	display: none;
+}
+
+.letter-1, .letter-2, .letter-3, .letter-4, .letter-5, .letter-6{
+	cursor: default;
+	width: 130px;
+    height: 130px;
+    margin: 18px;
+    float: left;
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    font-weight: bold;
+}
+
+.submit, .restart {
+	cursor: pointer;
+	background-color: lightgray;
+	text-align: center;
+	width: 20%;
+	height: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: 60px;
+	display: inline-block;
+}
+
+textarea {
+	width: 40%;
+	background-color: lightgray;
+	font-size: 30px;
+	font-weight: bold;
+	margin: auto;
+}
+
+.result {
+	margin: auto;
+	text-align: center;
+	font-weight: bold; 
+	font-size: 70px;
+	color: red;
+	margin-top: 150px;
+}
+
+.c {
+	width: 5%;
+	height: 25px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	border: 2.5px white solid;
+	border-radius: 50px;
+	border-color: white;
+	padding: 10px;
+	float: left;
+	display: none;
+}
